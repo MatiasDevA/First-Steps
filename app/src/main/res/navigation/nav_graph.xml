@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHeroDota1">
+
+    <fragment
+        android:id="@+id/fragmentHeroDota1"
+        android:name="com.example.showherodota.FragmentHeroDota1"
+        android:label="Dota2"
+        tools:layout="@layout/fragment_hero_dota1">
+        <action
+            android:id="@+id/action_fragmentHeroDota1_to_fragmentHeroDota2"
+            app:destination="@id/fragmentHeroDota2"
+            app:popUpTo="@id/fragmentHeroDota2"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="fragment1"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHeroDota2"
+        android:name="com.example.showherodota.FragmentHeroDota2"
+        android:label="fragment_hero_dota2"
+        tools:layout="@layout/fragment_hero_dota2" >
+        <argument
+            android:name="fragment2"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragmentHeroDota2_to_fragmentHeroDota1"
+            app:destination="@id/fragmentHeroDota1"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/fragmentHeroDota1"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

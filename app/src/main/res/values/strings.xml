@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">showHeroDota</string>
+    <string name="frase1"> Frase: La luz de la luna ilumina por igual a culpable o inocentes</string>
+    <string name="frase2"> Frase: No puedo apuntar bien si no me he tomado antes una cervezita!!</string>
+    <string name="frase3"> Frase: Hacer un collage de algunos amiguitos nativos.Llamarlo:ramillete de enanos</string>
+    <string name="frase4"> Frase: A mi edad ves la Muerte por otas partes... Muerte!</string>
+    <string name="frase5"> Frase: Tenia que haberle hecho caso a mi padre y haberme metido a granjero</string>
+    <string name="frase6"> Frase: los hombres vienen de marte, yo vengo de la tumba</string>
+    <string name="frase7"> Frase: no es facil ser el principe</string>
+    <string name="frase8"> Frase: One little spark and before you know it , the whole world is burning</string>
+    <string name="frase9"> Frase: Its all fun and games until someones frozen solid</string>
+    <string name="frase10"> Frase: Ah these mortals and their futile games. Oh wait! Im one of them! Hah ha ha ha ha!</string>
+    <string name="frase11"> Frase: Time to sink or swim</string>
+    <string name="frase12"> Frase: Make way for your Queen.</string>
+    <string name="frase13"> Frase: Its Wraith King, not Rage King! Arrgh…</string>
+    <string name="frase14"> Frase: My shadow shall darken all creation</string>
+    <string name="frase15"> Frase: Someone call de doctor?</string>
+    <string name="frase16"> Frase: Windranger at your service.</string>
+    <string name="frase17"> Frase:  A new chapter in my Black Grimoire.</string>
+    <string name="frase18"> Frase: Call me Vengeance.</string>
+    <string name="frase19"> Frase: My blades and my mind are as one.</string>
+    <string name="frase20"> Frase: Im here to blur the line between life and death</string>
+    <string name="action_switch_layout">action_switch_layout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">BUTTON</string>
+    <string name="action_switch_layout1">action_switch_layout1</string>
+</resources>
